@@ -1,0 +1,23 @@
+import { SharedValue } from 'react-native-reanimated';
+import { SwipeDayActionsProps, SwipeDayRenderProps } from '../types/swipe-day';
+import { DatetimeState } from '../providers/datetime-provider';
+import { CalendarDate } from 'internal-ts-useful';
+export declare const DateColumn: import("react").MemoExoticComponent<({ blockPress$, date, groupId, rtl, visible, index, borderBottomColor, borderBottomWidth, backgroundColor, sideBorderColor, sideBorderWidth, top, width, height, color, format, formatDate, render, onPress, }: CalendarDate & {
+    blockPress$: SharedValue<boolean>;
+    index: number;
+    rtl: boolean;
+    visible: boolean;
+    top: number;
+    width: number;
+    height: number;
+    borderBottomColor: string;
+    borderBottomWidth: number;
+    sideBorderColor: string;
+    sideBorderWidth: number;
+    backgroundColor: string;
+    format: string;
+    color: string;
+    formatDate: DatetimeState["formatDate"];
+    render: SwipeDayRenderProps["renderDayHeader"];
+    onPress: SwipeDayActionsProps["onDayHeaderPress"];
+}) => import("react/jsx-runtime").JSX.Element>;
