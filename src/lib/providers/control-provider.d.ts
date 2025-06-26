@@ -1,0 +1,22 @@
+import { PropsWithChildren } from 'react';
+import { SwipeDayControllerProps, SwipeDayDimensionsProps, SwipeGayGroupProps } from '../types/swipe-day';
+type State = {
+    snappable: boolean;
+    groupable: boolean;
+    rtl: boolean;
+    isDayHeaderVisible: boolean;
+    isGroupHeaderVisible: boolean;
+    width: number;
+    widthUnit: number;
+    widthWeight: number;
+    dateWidth: number;
+    dateWidthUnit: number;
+    dayHeaderHeight: number;
+    groupHeaderHeight: number;
+    headerHeight: number;
+    verticalLineSize: number;
+    horizontalLineSize: number;
+};
+export declare const ControlProvider: ({ children, snappable, groupable, rtl, isDayHeaderVisible, isGroupHeaderVisible, groups, width: propWidth, dayHeaderHeight, groupHeaderHeight, horizontalLineSize, }: PropsWithChildren<SwipeDayControllerProps & SwipeGayGroupProps & SwipeDayDimensionsProps>) => import("react/jsx-runtime").JSX.Element;
+export declare const useControl: () => State;
+export {};

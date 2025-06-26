@@ -1,0 +1,50 @@
+{
+  "name": "@symbiot.dev/react-native-swipeday",
+  "version": "1.1.0",
+  "description": "A lightweight customizable swipeable list component designed to swipe through days, ideal for calendar-based UIs in React Native.",
+  "main": "./index.esm.js",
+  "types": "./src/index.d.ts",
+  "keywords": [
+    "react-native",
+    "calendar",
+    "swipe",
+    "day-swiper",
+    "react-native-gesture-handler",
+    "react-native-reanimated",
+    "planner",
+    "schedule",
+    "date-picker",
+    "expo"
+  ],
+  "files": [
+    "./src/**",
+    "./CHANGELOG.md",
+    "./index.esm.d.ts",
+    "./index.esm.js",
+    "./LICENSE",
+    "./README.md"
+  ],
+  "author": {
+    "name": "Symbiot",
+    "email": "info@symbiot.dev",
+    "url": "https://symbiot.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://symbiot.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symbiotdev/react-native-swipeday.git"
+  },
+  "bugs": {
+    "url": "https://github.com/symbiotdev/react-native-swipeday/issues"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-native": ">=0.65",
+    "react-native-reanimated": ">=3",
+    "react-native-gesture-handler": ">=2",
+    "date-fns": ">=4"
+  },
+  "module": "./index.esm.js",
+  "type": "module"
+}
